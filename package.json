@@ -1,0 +1,24 @@
+{
+  "name": "hisui-introduce",
+  "version": "1.0.0",
+  "description": "[紹介サイト](https://adenohitu.github.io/Hisui-introduce/)",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adenohitu/Hisui-introduce.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/adenohitu/Hisui-introduce/issues"
+  },
+  "homepage": "https://github.com/adenohitu/Hisui-introduce#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}

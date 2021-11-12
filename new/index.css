@@ -2,7 +2,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
-  background-color: #d1dae7;
+  background-color: #ebf2ff;
 }
 
 .carousel {
@@ -109,6 +109,11 @@ body {
     margin-top: 7rem;
   }
 }
+@media (min-width: 992px) {
+  .rounded-lg-3 {
+    border-radius: 0.3rem;
+  }
+}
 .b-example-divider {
   height: 3rem;
   background-color: rgba(0, 0, 0, 0.1);
@@ -152,11 +157,8 @@ body {
 .icon-square {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
   width: 3rem;
   height: 3rem;
-  font-size: 1.5rem;
-  border-radius: 0.75rem;
 }
 
 .rounded-4 {
@@ -186,8 +188,10 @@ body {
   vertical-align: -0.125em;
   fill: currentColor;
 }
-
-.bi {
-  vertical-align: -0.125em;
-  fill: currentColor;
+.icon-custom-1 {
+  border-radius: 50px;
+  text-align: center;
+  padding: 20px;
+  background: #d1dae7;
+  box-shadow: 21px 21px 41px #b2b9c4, -21px -21px 41px #f0fbff;
 }

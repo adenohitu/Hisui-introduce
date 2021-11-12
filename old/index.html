@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>Hisui-競プロ支援ツール-</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="競プロ支援ツール「Hisui」" />
+    <meta name="author" content="adenohitu" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://adenohitu.github.io/Hisui-introduce/img/sc/4.png"
+    />
+    <meta name="twitter:site" content="@adenohitu" />
+    <meta name="twitter:title" content="Hisui-競プロ支援ツール-" />
+    <meta
+      name="twitter:description"
+      content="競技プログラミング専用ツールHisuiを使って、競プロもっと楽しもう"
+    />
+
+    <head
+      prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"
+    >
+      <meta
+        property="og:url"
+        content="https://adenohitu.github.io/Hisui-introduce/"
+      />
+
+      <meta property="og:type" content="website" />
+
+      <meta property="og:title" content="Hisui-競プロ支援ツール-" />
+
+      <meta
+        property="og:description"
+        content="競技プログラミング専用ツールHisuiを使って、競プロもっと楽しもう"
+      />
+
+      <meta property="og:site_name" content="Hisui-競プロ支援ツール-" />
+
+      <meta
+        property="og:image"
+        content="https://adenohitu.github.io/Hisui-introduce/img/sc/4.png"
+      />
+    </head>
+    <meta http-equiv="content-type" charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link href="index.css" rel="stylesheet" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7KFJJRSL5Z"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7KFJJRSL5Z");
+    </script>
+    <meta
+      name="google-site-verification"
+      content="GseNWqlq5GFyjLimabwuIO9haAXPv-pthQscYAq1ahY"
+    />
+  </head>
+
+  <body>
+    <header class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav>
+        <a class="navbar-brand" href="#">Hisui</a
+        ><a class="text-white-50">Hisui-競プロ支援ツール-</a>
+      </nav>
+    </header>
+
+    <main role="main">
+      <div class="bd-masthead mb-3" id="content">
+        <div class="container px-4 px-md-3">
+          <div class="row align-items-lg-center">
+            <div class="col-8 mx-auto col-md-4 order-md-2 col-lg-5">
+              <img
+                src="./img/iconmain.png"
+                width="600"
+                height="533"
+                class="img-fluid mb-3 mb-md-0"
+              />
+            </div>
+            <div class="col-md-8 order-md-1 col-lg-7 text-center text-md-start">
+              <h1 class="mb-3 mt-3">競プロを簡単に</h1>
+              <p class="lead mb-4">
+                競技プログラミング専用ツールHisuiを使って、競プロもっと楽しもう<br />
+                競プロ向けにカスタマイズされたエディター<br />
+                順位や時間などの必要な情報をすぐに手に入れられるダッシュボード<br />
+                競プロに役立つさまざまな機能が備わっています
+              </p>
+              <div class="d-flex flex-column flex-md-row">
+                <a
+                  href="https://adenohitu.github.io/Hisui-docs/"
+                  class="btn button-custom-me mx-2 mb-3"
+                  >ドキュメント</a
+                >
+                <a href="./download" class="btn button-custom-me mx-2 mb-3"
+                  >ダウンロード-準備中-</a
+                >
+              </div>
+              <!-- v0.0.1-bata -->
+              <p class="text-muted mb-0">
+                最新版:<strong>近日α版公開予定</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pb-5">
+        <h4 class="p-3 mb-2 bg-danger text-white">
+          このアプリケーションはまだ開発段階です<br />
+        </h4>
+        <p>機能・デザインは変更される場合があります</p>
+      </div>
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="box-custom-me px-3 h-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="140"
+                height="140"
+                fill="currentColor"
+                class="bi bi-file-earmark-code-fill mb-3 pt-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM6.646 7.646a.5.5 0 1 1 .708.708L5.707 10l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 10 8.646 8.354a.5.5 0 1 1 .708-.708z"
+                />
+              </svg>
+              <h2>Coding</h2>
+              <p>
+                競技プログラミングに最適化されたエディターが搭載されています<br />
+                VSCodeのエディターコアとして使われているMonacoEditorを採用
+                <br />
+                初めての方でも直感的に使うことができます <br />
+              </p>
+            </div>
+          </div>
+
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="box-custom-me px-3 h-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="140"
+                height="140"
+                fill="currentColor"
+                class="bi bi-list-ol mb-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5z"
+                />
+                <path
+                  d="M1.713 11.865v-.474H2c.217 0 .363-.137.363-.317 0-.185-.158-.31-.361-.31-.223 0-.367.152-.373.31h-.59c.016-.467.373-.787.986-.787.588-.002.954.291.957.703a.595.595 0 0 1-.492.594v.033a.615.615 0 0 1 .569.631c.003.533-.502.8-1.051.8-.656 0-1-.37-1.008-.794h.582c.008.178.186.306.422.309.254 0 .424-.145.422-.35-.002-.195-.155-.348-.414-.348h-.3zm-.004-4.699h-.604v-.035c0-.408.295-.844.958-.844.583 0 .96.326.96.756 0 .389-.257.617-.476.848l-.537.572v.03h1.054V9H1.143v-.395l.957-.99c.138-.142.293-.304.293-.508 0-.18-.147-.32-.342-.32a.33.33 0 0 0-.342.338v.041zM2.564 5h-.635V2.924h-.031l-.598.42v-.567l.629-.443h.635V5z"
+                />
+              </svg>
+              <h2>Ranking</h2>
+              <p>
+                競技プログラミングではランキングが重要になってきます<br />
+                ランキング情報をより直感的に見ることのできるダッシュボードが搭載されています
+              </p>
+            </div>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="box-custom-me px-3 h-100">
+              <img
+                class="rounded-circle mb-3"
+                src="img/Git-Icon-1788C2.png"
+                alt="Generic placeholder image"
+                width="140"
+                height="140"
+              />
+              <h2>History</h2>
+              <p>
+                これまでにコンテスト中に書いたコード・過去問を解いた時に書いたコードの全てを管理することができます<br />
+                テストを実行したときや提出したタイミングでGitに自動でCommitされます
+                <br />
+                またコードをGithubといったサービスにあげてすぐに共有することができます
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="box-custom-me px-3 h-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="140"
+                height="140"
+                fill="currentColor"
+                class="bi bi-check-square-fill mb-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"
+                />
+              </svg>
+              <h2>Test & Submit</h2>
+              <p>
+                書いたコードをすぐにテストして問題がなければアプリ内で提出することができます
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="box-custom-me px-3 h-100">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="140"
+                height="140"
+                fill="currentColor"
+                class="bi bi-plus-square-fill mb-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+              <h2>Generate testcase</h2>
+              <p>
+                制約を入力することで新たなテストケース生成を生成できます<br />公開されていないテストケース生成も試すことでバグなどに気付くことができます
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="box-custom-me px-3 h-100">
+              <svg
+                width="140"
+                height="140"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-puzzle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.459.459 0 0 0-.115.118.113.113 0 0 0-.012.025L6.5 4.5v.003l.003.01c.004.01.014.028.036.053a.86.86 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.86.86 0 0 0 .271-.194.213.213 0 0 0 .036-.054l.003-.01v-.008a.112.112 0 0 0-.012-.025.459.459 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.459.459 0 0 0 .115-.118.113.113 0 0 0 .012-.025L9.5 11.5v-.003l-.003-.01a.214.214 0 0 0-.036-.053.859.859 0 0 0-.27-.194C8.91 11.1 8.49 11 8 11c-.491 0-.912.1-1.19.24a.859.859 0 0 0-.271.194.214.214 0 0 0-.036.054l-.003.01v.002l.001.006a.113.113 0 0 0 .012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238l-.244-2.855z"
+                />
+              </svg>
+              <h2>Add-on</h2>
+              <p>
+                ユーザーが自分で機能を増やせるインターフェース<br />特別な知識なしですぐに作り始められます<br />作った機能はマーケットプレイスを通して公開することでいろんな人に使ってもらえます
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              初心者の大きな壁、環境構築<br />
+              <span class="text-muted">インストールするだけ</span>
+            </h2>
+            <p class="lead">
+              難しい設定などはなく、すぐに使い始めることができます<br />
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              src="img/sc/1.png"
+              alt="Generic placeholder image"
+              width="500px"
+              height="500px"
+              object-fit="cover"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">ライバルに勝ちたい？<br /></h2>
+            <p class="lead">
+              必要な情報を選び表示できるダッシュボード<br />
+              時間のないコンテスト中に素早く順位表などから得られる情報を手に入れることができます
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              src="img/sc/4.png"
+              alt="Generic placeholder image"
+              width="500px"
+              height="500px"
+              object-fit="cover"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">バグを見つける<br /></h2>
+            <p class="lead">
+              新たなサンプルケースを生成できる<br />
+              公開されているサンプルケースをすべて試してもどこにバグがあるかわからないとき、<br />すぐに新たなサンプルケースを作って試すことができます
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              src="img/sc/5.jpg"
+              alt="Generic placeholder image"
+              width="500px"
+              height="500px"
+              object-fit="cover"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">自動のコード管理<br /></h2>
+            <p class="lead">
+              コードテストテストを実行したタイミングや提出したタイミングでソースコードを保存<br />
+              コンテストに参加中に間違って消してしまってもすぐに戻すことができます
+              <br />
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              data-src="holder.js/500x500/auto?text=Comming soon"
+              alt="Generic placeholder image"
+              height="auto"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          &copy; 2021 Adenohitu &middot;
+          <a href="https://github.com/adenohitu">Github</a> &middot;
+          <a href="https://Twitter.com/adenohitu">Twitter</a>
+          <!--&middot; <a href="">Discord</a> -->
+        </p>
+      </footer>
+    </main>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>'
+        );
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.7/holder.min.js"
+      integrity="sha512-O6R6IBONpEcZVYJAmSC+20vdsM07uFuGjFf0n/Zthm8sOFW+lAq/OK1WOL8vk93GBDxtMIy6ocbj6lduyeLuqQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="/docs/4.3/assets/js/vendor/anchor.min.js"></script>
+    <script src="/docs/4.3/assets/js/vendor/clipboard.min.js"></script>
+    <script src="/docs/4.3/assets/js/vendor/bs-custom-file-input.min.js"></script>
+    <script src="/docs/4.3/assets/js/src/application.js"></script>
+    <script src="/docs/4.3/assets/js/src/search.js"></script>
+    <script src="/docs/4.3/assets/js/src/ie-emulation-modes-warning.js"></script>
+  </body>
+</html>

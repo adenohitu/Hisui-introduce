@@ -195,3 +195,6 @@ body {
   background: #d1dae7;
   box-shadow: 21px 21px 41px #b2b9c4, -21px -21px 41px #f0fbff;
 }
+.feature-img {
+  float: left;
+}
